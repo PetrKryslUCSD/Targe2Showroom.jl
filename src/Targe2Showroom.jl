@@ -75,6 +75,9 @@ triangulationDisplay.SetRepresentationType('Surface With Edges')
 # set scalar coloring
 ColorBy(triangulationDisplay, ('CELLS', 'Regions'))
 
+# Properties modified on triangulationDisplay
+triangulationDisplay.EdgeColor = [1.0, 1.0, 0.4980392156862745]
+
 # rescale color and/or opacity maps used to include current data range
 triangulationDisplay.RescaleTransferFunctionToDataRange(True, False)
 
