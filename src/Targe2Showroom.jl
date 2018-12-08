@@ -135,7 +135,7 @@ end
 Generate a mesh Targe2 and show it with Paraview.
 """
 function demo(filename, commands; show = false, kwargs...)
-    mesh = targe2mesher(commands, kwargs...)
+    mesh = triangulate(commands, kwargs...)
     show && showmesh(filename, mesh)
     return mesh
 end
