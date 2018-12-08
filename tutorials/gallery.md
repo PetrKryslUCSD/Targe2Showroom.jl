@@ -6,7 +6,7 @@ The examples here assume that you have the `Targe2` package and its dependencies
 First execute these two lines:
 ```
 using Targe2 
-using Targe2: demo
+using Targe2Showroom: demo
 ```
 
 ## Coarse mesh of a rectangle
