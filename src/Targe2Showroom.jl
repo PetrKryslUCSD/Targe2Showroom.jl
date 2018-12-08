@@ -84,6 +84,12 @@ triangulationDisplay.SetScalarBarVisibility(renderView1, True)
 # get color transfer function/color map for 'Regions'
 regionsLUT = GetColorTransferFunction('Regions')
 
+# Properties modified on xMLUnstructuredGridReader1Display.DataAxesGrid
+triangulationDisplay.DataAxesGrid.GridAxesVisibility = 1
+
+# show color bar/color legend
+triangulationDisplay.SetScalarBarVisibility(renderView1, False)
+
 # reset view to fit data
 renderView1.ResetCamera()
 

@@ -1,6 +1,7 @@
 # Gallery of Targe2 meshes
 
-The examples here assume that you have the `Targe2` package and its dependencies installed. Also, the visualization software `Paraview` (http://www.paraview.org/) needs to be installed in order to visualize the meshes.
+The examples here assume that you have the `Targe2` package and its dependencies installed. Furthermore you need the present package,
+`Targe2Showroom` and its dependencies. Also, the visualization software `Paraview` (http://www.paraview.org/) needs to be installed in order to visualize the meshes.
 
 First execute these two lines:
 ```
